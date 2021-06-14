@@ -36,7 +36,8 @@ The One Shot Learning algorithm has been implemented using the Triplet Loss func
 # Triplet-Loss
 Triplet loss is a loss function for machine learning algorithms where a baseline (anchor) input is compared to a positive (truthy) input and a negative (falsy) input. The distance from the baseline (anchor) input to the positive (truthy) input is minimized, and the distance from the baseline (anchor) input to the negative (falsy) input is maximized.
 
-(https://user-images.githubusercontent.com/55103824/121844473-af060200-cd01-11eb-8141-ce8e82cbccac.png)
+![Image depicting the concept of Triplet Loss](https://user-images.githubusercontent.com/55103824/121844473-af060200-cd01-11eb-8141-ce8e82cbccac.png)
+
 
 
 # References:
