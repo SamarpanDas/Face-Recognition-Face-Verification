@@ -1,4 +1,3 @@
-![11760_2019_1612_Fig1_HTML](https://user-images.githubusercontent.com/55103824/121845847-b0d0c500-cd03-11eb-8f79-67529c3c1a90.png)
 # Face-Recognition-Face-Verification
 
 I have implemented a Face Recognition & Face Verification model by One Shot Learning using a Triplet Loss function.
@@ -37,9 +36,7 @@ The One Shot Learning algorithm has been implemented using the Triplet Loss func
 # Triplet-Loss
 Triplet loss is a loss function for machine learning algorithms where a baseline (anchor) input is compared to a positive (truthy) input and a negative (falsy) input. The distance from the baseline (anchor) input to the positive (truthy) input is minimized, and the distance from the baseline (anchor) input to the negative (falsy) input is maximized.
 
-![Image depicting the concept of Triplet Loss]![11760_2019_1612_Fig1_HTML](https://user-images.githubusercontent.com/55103824/121844473-af060200-cd01-11eb-8141-ce8e82cbccac.png)
-
-
+![11760_2019_1612_Fig1_HTML](https://user-images.githubusercontent.com/55103824/121845847-b0d0c500-cd03-11eb-8f79-67529c3c1a90.png)
 
 # References:
 * Yaniv Taigman, Ming Yang, Marc'Aurelio Ranzato, Lior Wolf (2014). DeepFace: Closing the gap to human-level performance in face verification.  <https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf![triplet_loss]>
