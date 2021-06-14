@@ -17,6 +17,8 @@ Note that for a Face Verification task it is required that the subject identifie
 Face Recognition task, unlike that of Face Verification is a 1:K classification task, with K being the number of images (encoding of images) stored in the database
 In a Face Recognition task the subject does not need to identify himself as being a certain person, his picture is taken and it is then compared to all the images (or, encoding of images) and if the picture's similarity score with a certain image in the database is more than the set threshold, the subject's face is recognised and the subsequent tasks are allowed.
 
+
+
 ![face_verification_vs_recognition](https://user-images.githubusercontent.com/55103824/121846398-99460c00-cd04-11eb-8dd4-50a805704de5.jpg)
 
 
