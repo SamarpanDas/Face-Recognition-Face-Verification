@@ -1,3 +1,4 @@
+![11760_2019_1612_Fig1_HTML](https://user-images.githubusercontent.com/55103824/121845847-b0d0c500-cd03-11eb-8f79-67529c3c1a90.png)
 # Face-Recognition-Face-Verification
 
 I have implemented a Face Recognition & Face Verification model by One Shot Learning using a Triplet Loss function.
