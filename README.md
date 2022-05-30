@@ -1,6 +1,7 @@
-# Face-Recognition-Face-Verification
+# One-Shot Learning for Face Recognition
 
 I have implemented a Face Recognition & Face Verification model by One Shot Learning using a Triplet Loss function.
+
 A Deep Learning project wherein a specialised Convolutional Neural Network called the Inception Neural Network (Version 2) has been used.
 
 The model requires only 1 image to train itself to recognise the face of the subject and is capable of Recognising it or Verifying it with an anchor image.
