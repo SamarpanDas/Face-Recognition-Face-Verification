@@ -16,7 +16,7 @@ Note that for a Face Verification task it is required that the subject identifie
 
 # Face-Recognition
 Face Recognition task, unlike that of Face Verification is a 1:K classification task, with K being the number of images (encoding of images) stored in the database
-In a Face Recognition task the subject does not need to identify himself as being a certain person, his picture is taken and it is then compared to all the images (or, encoding of images) and if the picture's similarity score with a certain image in the database is more than the set threshold, the subject's face is recognised and the subsequent tasks are allowed.
+In a Face Recognition task, the subject does not need to identify himself as being a certain person, his picture is taken and it is then compared to all the images (or, encoding of images). Now, if the picture's similarity score with a certain image in the database is more than the set threshold, the subject's face is recognised and the subsequent tasks are allowed.
 
 
 
@@ -24,16 +24,16 @@ In a Face Recognition task the subject does not need to identify himself as bein
 
 
 # Transfer-Learning
-has been used to get the required network architecture and the weights for the purpose of this project.
+Transfer Learning has been used to get the required network architecture and the weights for the purpose of this project.
 
-The Inception Network architecture has been used here the implementation is present at the "inception_blocks_v2.py" file.
+The Inception Network architecture has been used here, the implementation of which is present at the "inception_blocks_v2.py" file.
 
-The Inception Network Very deep convolutional networks have been central to the largest advances in image recognition performance in recent years. One example is the Inception architecture that has been shown to achieve very good performance at relatively low computational cost.
+The Inception Network is a very deep convolutional network and has been central to the largest advances in image recognition performance in recent years. One example is the Inception architecture that has been shown to achieve very good performance at relatively low computational cost.
 
 
 
 # One-Shot-Learning 
-Currently most deep learning models generally need thousands of labeled samples per class. Data acquisition for most tasks is very expensive. The possibility to have models that could learn from one or a few samples is a lot more interesting than having the need of acquiring and labeling thousands of samples. One could argue that a young child can learn a lot of concepts without needing a large number of examples. This is where one-shot learning appears: the task of classifying with only having access of one example of each possible class in each test task. This ability of learning from little data is very interesting and could be used in many machine learning problems.
+Most deep learning models generally need thousands of labeled samples per class. Data acquisition for most tasks is very expensive. The possibility to have models that could learn from one or a few samples is a lot more interesting than having the need to acquire and label thousands of samples. One could argue that a young child can learn a lot of concepts without needing a large number of examples. This is where one-shot learning appears: the task of classifying with only having access of one example of each possible class in each test task. This ability of learning from little data is very interesting and could be used in many machine learning problems.
 
 The One Shot Learning algorithm has been implemented using the Triplet Loss function.
 
